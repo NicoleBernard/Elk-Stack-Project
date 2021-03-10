@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Elk Stack Diagram](Images/diagram_filename.png)
+![Elk Stack Diagram](Elk-Stack-Project/images/Elk_Stack_Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Elk-Stack-Project/ElK-Stack-Scripts/filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -110,6 +110,7 @@ SSH into the control node and follow the steps below:
 
  ### Creating the Filebeat Installation Play
     - Download the .deb file from artificats.elastic.co
-    -Run dpkg -i filebeat-7.4.0-amd64.deb
-    - After entering your information into the Filebeat configuration file and Ansible playbook, you should have run: ansible-playbook filebeat-playbook.yml
+    - Run: dpkg -i filebeat-7.4.0-amd64.deb
+    - After entering your information into the Filebeat configuration file and Ansible playbook, 
+    - Run: ansible-playbook filebeat-playbook.yml
     - Then varify the playbook is complete
